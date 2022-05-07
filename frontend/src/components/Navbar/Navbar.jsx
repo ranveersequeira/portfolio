@@ -14,12 +14,16 @@ const Navbar = () => {
                 <img src={images.logo} alt="logo" />
             </div>
             <ul className="app__navbar-links">
-                {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+                {['home', 'about', 'work', 'skills', 'contact',].map((item) => (
                     <li className="app__flex p-text" key={`link-${item}`}>
                         <div />
                         <a href={`#${item}`}>{item}</a>
                     </li>
                 ))}
+                <li className="app__flex p-text">
+                    <div />
+                    <a href={"https://drive.google.com/file/d/1d4jRfcMgYXs5wD5N2eZoUUOVCMONjDAk/view?usp=sharing"}>{"RESUME"}</a>
+                </li>
             </ul>
 
             <div className="app__navbar-menu">
@@ -43,7 +47,7 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </div>
-        </nav>
+        </nav >
     );
 };
 
