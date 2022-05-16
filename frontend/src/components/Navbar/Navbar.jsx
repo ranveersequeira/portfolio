@@ -43,6 +43,10 @@ const Navbar = () => {
                                     </a>
                                 </li>
                             ))}
+                            <li className="app__flex p-text">
+                                <div />
+                                <a href={"https://drive.google.com/file/d/1d4jRfcMgYXs5wD5N2eZoUUOVCMONjDAk/view?usp=sharing"}>{"RESUME"}</a>
+                            </li>
                         </ul>
                     </motion.div>
                 )}
